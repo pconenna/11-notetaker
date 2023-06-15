@@ -1,10 +1,7 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
-    },
-    {
-        "title":"Note 2",
-        "text":"find grocery money"
+        "title": "Chores",
+        "text": "trash, laundry, dishes",
+        "id": "6f95b9e6-18f6-458f-9cf5-3239b8b57f24"
     }
 ]

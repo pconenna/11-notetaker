@@ -1,12 +1,13 @@
-const n = require('express').Router();
+const notes = require('express').Router();
 const { readFromFile, writeToFile, readAndAppend } = require('../helpers/fsUtils');
 
 // get for notes
-n.get('/',(req,res) =>
+notes.get('/',(req,res) =>{
+    console.info(`${req.method} received`)
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
-);
+});
 
-n.post('/',(req,res) => {
+notes.post('/',(req,res) => {
     const {title,text} = req.body;
     if(title && text){
         const newNote ={
@@ -18,4 +19,4 @@ n.post('/',(req,res) => {
         res.json("Error")
     }
 })
-module.exports = n;
+module.exports = notes;

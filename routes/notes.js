@@ -16,8 +16,11 @@ notes.post('/',(req,res) => {
             id: uuidv4()
         }
         readAndAppend(newNote,'./db/db.json');
+        // needs response
+        res.json(newNote);
     }else{
-        res.json("Error")
+        res.status(400).json("Error")
+        // send error status code
     }
 })
 module.exports = notes;

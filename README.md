@@ -18,6 +18,7 @@ N/A
 
 ## Credits
 I worked mostly alone. I got a small amount of help from Brian Baker because I did not realize that my post method to create a note was not working properly at first because I did not write a proper response.
+I used the same fsUtils functions from the mini project.
 
 ## License 
 Please refer to the license in the repo. 

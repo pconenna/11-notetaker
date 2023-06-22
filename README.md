@@ -2,7 +2,7 @@
 
 ## Description
 The Notaker app is a fullstack app that allows a user to create and view notes within the browser. The app has a landing page and a page on which the notes can be created and viewed.
-Link to deployed app:
+Link to deployed app: https://peter-conenna-notetaker-f6f7712d6c3f.herokuapp.com/
 
 ## Installation 
 N/A
